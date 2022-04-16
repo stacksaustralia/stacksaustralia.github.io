@@ -993,13 +993,13 @@ section.lazy-placeholder:after {
   margin-top: 0.2rem;
 }
 .cid-t38MWF9TT6 .iconfont-wrapper {
-  color: #000000 !important;
+  color: #2e0c99 !important;
   font-size: 1.5rem;
   padding-right: 0.5rem;
 }
 .cid-t38MWF9TT6 .dropdown-menu,
 .cid-t38MWF9TT6 .navbar.opened {
-  background: #1a449a !important;
+  background: #2e0c99 !important;
 }
 .cid-t38MWF9TT6 .nav-item:focus,
 .cid-t38MWF9TT6 .nav-link:focus {
@@ -1033,7 +1033,7 @@ section.lazy-placeholder:after {
   min-height: 100px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  background: rgba(26, 68, 154, 0);
+  background: rgba(46, 12, 153, 0);
 }
 .cid-t38MWF9TT6 .navbar.opened {
   transition: all 0.3s;
@@ -1178,7 +1178,7 @@ section.lazy-placeholder:after {
   padding: 0.667em 1.667em;
 }
 .cid-t38MWF9TT6 .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #1a449a;
+  background: #2e0c99;
 }
 .cid-t38MWF9TT6 .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
@@ -1209,7 +1209,7 @@ section.lazy-placeholder:after {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #1a449a;
+  background-color: #2e0c99;
 }
 .cid-t38MWF9TT6 button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1280,7 +1280,7 @@ section.lazy-placeholder:after {
   }
 }
 .cid-t38N5zABj4 {
-  padding-top: 20rem;
+  padding-top: 13rem;
   padding-bottom: 15rem;
   background-color: #f8f8f8;
   overflow: hidden;
@@ -1330,7 +1330,7 @@ section.lazy-placeholder:after {
 }
 .cid-t38N5zABj4 .mbr-text,
 .cid-t38N5zABj4 .mbr-section-btn {
-  color: #1a449a;
+  color: #2e0c99;
 }
 .cid-t38O9hyrf2 {
   padding-top: 5rem;
