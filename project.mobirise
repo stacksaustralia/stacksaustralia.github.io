@@ -56,9 +56,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "pwa-switcher": false,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "pwa-switcher": false
   },
   "pages": {
     "index.html": {
