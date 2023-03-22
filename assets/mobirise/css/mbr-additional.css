@@ -1072,64 +1072,145 @@ a {
   height: 100%;
   object-fit: cover;
 }
-.cid-t6WBlJhol5 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+.cid-tzbPnGJv6s {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
-.cid-t6WBlJhol5 .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-t6WBlJhol5 .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
+.cid-tzbPnGJv6s .row {
+  align-items: stretch;
   width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
 }
-.cid-t6WBlJhol5 .mbr-section-subtitle {
-  background: black;
-  width: fit-content;
+@media (max-width: 767px) {
+  .cid-tzbPnGJv6s .row {
+    flex-wrap: wrap;
+  }
+}
+.cid-tzbPnGJv6s .title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+}
+@media (max-width: 767px) {
+  .cid-tzbPnGJv6s .title-container {
+    width: 100%;
+  }
+}
+.cid-tzbPnGJv6s .mbr-section-head {
+  padding: 5rem 1rem 5rem 5rem !important;
+}
+@media (min-width: 768px) {
+  .cid-tzbPnGJv6s .mbr-section-head {
+    position: sticky;
+    top: 0;
+  }
+}
+@media (max-width: 991px) {
+  .cid-tzbPnGJv6s .mbr-section-head {
+    padding: 5rem 1rem 5rem 0 !important;
+  }
+}
+@media (max-width: 767px) {
+  .cid-tzbPnGJv6s .mbr-section-head {
+    padding: 3rem 0 3rem 0 !important;
+  }
+}
+.cid-tzbPnGJv6s .label-text {
+  margin-bottom: 0;
+  color: #f3f4ef;
+  margin-top: 16px;
+  padding: 0.375rem 0;
+  opacity: 0.6;
+  line-height: 2;
+}
+.cid-tzbPnGJv6s .label-text span {
+  padding: 0.375rem 0.625rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: currentColor;
+  border-radius: 100vw;
+  color: currentColor;
+  margin-right: 8px;
+}
+.cid-tzbPnGJv6s .mbr-section-title {
+  color: #000000;
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+.cid-tzbPnGJv6s .mbr-section-subtitle {
+  color: #000000;
+  margin-bottom: 0;
+}
+.cid-tzbPnGJv6s .content-container {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5rem 1rem 4rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+@media (max-width: 767px) {
+  .cid-tzbPnGJv6s .content-container {
+    width: 100%;
+    padding: 5rem 0 4rem;
+  }
+}
+@media (max-width: 575px) {
+  .cid-tzbPnGJv6s .content-container {
+    width: 100%;
+    padding: 0;
+  }
+}
+.cid-tzbPnGJv6s .col-text {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.cid-tzbPnGJv6s .text-container {
+  padding: 24px;
+  width: 100%;
+  margin-bottom: 16px;
+  max-width: 24rem;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #5d47e9;
+}
+.cid-tzbPnGJv6s .text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.cid-tzbPnGJv6s .label-card {
   color: #ffffff;
-  padding: 0.2rem 1rem;
-  border-radius: 1rem;
+  padding: 6px 0;
+  margin-bottom: 8px;
 }
-.cid-t6WBlJhol5 .wrapper {
-  background: #5d47e9;
-  padding: 3rem;
-  border-radius: 2rem;
-  padding-bottom: 1rem;
+.cid-tzbPnGJv6s .label-card span {
+  padding: 6px 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: currentColor;
+  border-radius: 100vw;
+  color: currentColor;
 }
-@media (max-width: 767px) {
-  .cid-t6WBlJhol5 .wrapper {
-    padding: 2rem 1rem;
-  }
-  .cid-t6WBlJhol5 .wrapper .mbr-section-subtitle {
-    margin: auto;
-  }
+.cid-tzbPnGJv6s .card-title {
+  color: #1B1F0A;
+  margin-bottom: 0;
 }
-.cid-t6WBlJhol5 .card {
-  background: #ffffff;
-  border-radius: 2rem;
-  padding: 2rem;
-  margin-bottom: 2rem;
-}
-@media (max-width: 767px) {
-  .cid-t6WBlJhol5 .card {
-    padding: 2rem 1rem;
-  }
-}
-.cid-t6WBlJhol5 .mbr-section-title {
-  color: #000000;
-}
-.cid-t6WBlJhol5 .mbr-text,
-.cid-t6WBlJhol5 .mbr-section-btn {
-  color: #000000;
-}
-.cid-t6WBlJhol5 .mbr-title {
-  color: #000000;
+.cid-tzbPnGJv6s .mbr-text {
+  color: #ffffff;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 4px;
+  opacity: 0.8;
 }
 .cid-tzbrJhhgo8 {
   padding-top: 6rem;
