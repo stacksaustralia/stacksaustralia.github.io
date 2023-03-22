@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 section {
   background-color: #ffffff;
 }
@@ -37,10 +38,12 @@ a.mbr-iconfont:hover {
 
 a {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   cursor: pointer;
 }
-a, a:hover {
+
+a,
+a:hover {
   text-decoration: none;
 }
 
@@ -78,12 +81,19 @@ a {
   font-weight: 400;
 }
 
+a {
+  font-weight: 600;
+}
+
 b,
 strong {
   font-weight: bold;
 }
 
-input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
   transition-delay: 9999s;
   -webkit-transition-property: background-color, color;
   transition-property: background-color, color;
@@ -98,6 +108,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 section .mbr-background-video,
 section .mbr-background-video-preview {
   position: absolute;
@@ -146,15 +157,13 @@ section .mbr-background-video-preview {
 }
 
 @media (max-width: 767px) {
-  .align-left, .align-right {
+
+  .align-right,
+  .align-left {
     text-align: center;
   }
 }
-@media (max-width: 992px) {
-  .md-pb {
-    margin-bottom: 2rem !important;
-  }
-}
+
 /*! Font-weight  */
 .mbr-light {
   font-weight: 300;
@@ -185,6 +194,7 @@ section .mbr-background-video-preview {
   align-content: center;
   align-items: start;
 }
+
 .media-container-row .media-size-item {
   width: 400px;
 }
@@ -197,7 +207,8 @@ section .mbr-background-video-preview {
   align-content: center;
   align-items: stretch;
 }
-.media-container-column > * {
+
+.media-container-column>* {
   width: 100%;
 }
 
@@ -206,6 +217,7 @@ section .mbr-background-video-preview {
     flex-wrap: nowrap;
   }
 }
+
 figure {
   margin-bottom: 0;
   overflow: hidden;
@@ -245,7 +257,7 @@ iframe {
   align-self: center;
 }
 
-.media-container > div {
+.media-container>div {
   max-width: 100%;
 }
 
@@ -267,6 +279,7 @@ iframe {
     width: 100% !important;
   }
 }
+
 /*! Buttons */
 .mbr-section-btn {
   margin-left: -0.6rem;
@@ -308,6 +321,7 @@ iframe {
 .btn-form {
   margin: 0;
 }
+
 .btn-form:hover {
   cursor: pointer;
 }
@@ -368,6 +382,7 @@ nav .mbr-section-btn {
   height: 25rem;
   position: relative;
 }
+
 .map iframe {
   width: 100%;
   height: 100%;
@@ -399,9 +414,11 @@ nav .mbr-section-btn {
   cursor: pointer;
   text-align: center;
 }
+
 .mbr-arrow-up a:hover {
   background-color: rgba(0, 0, 0, 0.4);
 }
+
 .mbr-arrow-up a i {
   line-height: 60px;
 }
@@ -436,20 +453,23 @@ nav .mbr-section-btn {
   border-radius: 50%;
   transform: translateX(-50%);
 }
+
 @media (max-width: 767px) {
   .mbr-arrow {
     display: none;
   }
 }
-.mbr-arrow > a {
+
+.mbr-arrow>a {
   display: inline-block;
   text-decoration: none;
   outline-style: none;
   -webkit-animation: arrowdown 1.7s ease-in-out infinite;
-          animation: arrowdown 1.7s ease-in-out infinite;
+  animation: arrowdown 1.7s ease-in-out infinite;
   color: #ffffff;
 }
-.mbr-arrow > a > i {
+
+.mbr-arrow>a>i {
   position: absolute;
   top: -2px;
   left: 15px;
@@ -473,24 +493,30 @@ nav .mbr-section-btn {
   0% {
     transform: translateY(0px);
   }
+
   50% {
     transform: translateY(-5px);
   }
+
   100% {
     transform: translateY(0px);
   }
 }
+
 @-webkit-keyframes arrowdown {
   0% {
     transform: translateY(0px);
   }
+
   50% {
     transform: translateY(-5px);
   }
+
   100% {
     transform: translateY(0px);
   }
 }
+
 @media (max-width: 500px) {
   .mbr-arrow-up {
     left: 0;
@@ -498,31 +524,36 @@ nav .mbr-section-btn {
     text-align: center;
   }
 }
+
 /*Gradients animation*/
 @keyframes gradient-animation {
   from {
     background-position: 0% 100%;
     -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
   }
+
   to {
     background-position: 100% 0%;
     -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
   }
 }
+
 @-webkit-keyframes gradient-animation {
   from {
     background-position: 0% 100%;
     -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
   }
+
   to {
     background-position: 100% 0%;
     -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
   }
 }
+
 .bg-gradient {
   background-size: 200% 200%;
   animation: gradient-animation 5s infinite alternate;
@@ -532,44 +563,55 @@ nav .mbr-section-btn {
 .menu .navbar-brand {
   display: -webkit-flex;
 }
+
 .menu .navbar-brand span {
   display: flex;
   display: -webkit-flex;
 }
+
 .menu .navbar-brand .navbar-caption-wrap {
   display: -webkit-flex;
 }
+
 .menu .navbar-brand .navbar-logo img {
   display: -webkit-flex;
   width: auto;
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
   .menu .navbar-toggleable-sm .navbar-nav {
     display: -ms-flexbox;
   }
 }
+
 @media (max-width: 991px) {
   .menu .navbar-collapse {
     max-height: 93.5vh;
   }
+
   .menu .navbar-collapse.show {
     overflow: auto;
   }
 }
+
 @media (min-width: 992px) {
   .menu .navbar-nav.nav-dropdown {
     display: -webkit-flex;
   }
+
   .menu .navbar-toggleable-sm .navbar-collapse {
     display: -webkit-flex !important;
   }
+
   .menu .collapsed .navbar-collapse {
     max-height: 93.5vh;
   }
+
   .menu .collapsed .navbar-collapse.show {
     overflow: auto;
   }
 }
+
 @media (max-width: 767px) {
   .menu .navbar-collapse {
     max-height: 80vh;
@@ -673,6 +715,7 @@ input[type=range] {
 .modal-dialog .carousel-inner {
   height: calc(100vh - 1.75rem);
 }
+
 @media (max-width: 575px) {
   .modal-dialog .carousel-inner {
     height: calc(100vh - 1rem);
@@ -700,6 +743,7 @@ input[type=range] {
 .navbar-toggler:focus,
 .navbar-toggler:hover {
   text-decoration: none;
+  box-shadow: none;
 }
 
 .navbar-toggler-icon {
@@ -776,6 +820,7 @@ body {
   position: relative;
   text-align: center;
 }
+
 .alert.alert-form::after {
   background-color: inherit;
   bottom: -7px;
@@ -801,6 +846,7 @@ body {
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px 0px, rgba(0, 0, 0, 0.07) 0px 1px 3px 0px, rgba(0, 0, 0, 0.03) 0px 0px 0px 1px;
 }
+
 .form-active .form-control:invalid {
   border-color: red;
 }
@@ -809,6 +855,7 @@ form .row {
   margin-left: -0.6rem;
   margin-right: -0.6rem;
 }
+
 form .row [class*=col] {
   padding-left: 0.6rem;
   padding-right: 0.6rem;
@@ -900,52 +947,70 @@ blockquote {
     margin-left: -16px;
     margin-right: -16px;
   }
-  .row > [class*=col] {
+
+  .row>[class*=col] {
     padding-left: 16px;
     padding-right: 16px;
   }
 }
+
 @media (min-width: 768px) {
   .container-fluid {
     padding-left: 32px;
     padding-right: 32px;
   }
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
   .mbr-container {
     padding-left: 32px;
     padding-right: 32px;
   }
 }
+
 @media (max-width: 767px) {
   .mbr-container {
     padding-left: 16px;
     padding-right: 16px;
   }
 }
+
 .card-wrapper,
 .item-wrapper {
   overflow: hidden;
 }
 
-.app-video-wrapper > img {
+.app-video-wrapper>img {
   opacity: 1;
 }
 
-@-webkit-keyframes svg-wave {
-  from {
-    transform: scaleX(1) scaleY(1.1);
-  }
-  to {
-    transform: scaleX(1) scaleY(1.6);
+.item {
+  position: relative;
+}
+
+.dropdown-menu .dropdown-menu {
+  left: 100%;
+}
+
+.dropdown-item+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-item:hover+.dropdown-menu,
+.dropdown-menu:hover {
+  display: block;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .mbr-video-foreground {
+    height: 300% !important;
+    top: -100% !important;
   }
 }
 
-@keyframes svg-wave {
-  from {
-    transform: scaleX(1) scaleY(1.1);
-  }
-  to {
-    transform: scaleX(1) scaleY(1.6);
+@media (max-aspect-ratio: 16/9) {
+  .mbr-video-foreground {
+    width: 300% !important;
+    left: -100% !important;
   }
 }
